@@ -55,7 +55,7 @@ button:hover{
 /***************SEZIONE OUTPUT************/
 .lista_out{
    text-transform: uppercase;
-   /* display: none; */
+   display: none;
 }
 
 ul{
@@ -71,4 +71,8 @@ ul{
 
 li{
     border-bottom: 1px solid rgb(163, 156, 156);
+}
+
+.display{
+    display: block;
 }
