@@ -1,0 +1,12 @@
+/******************REGOLE GENERALI****************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*********************REGOLE MAIN***************/
+.my_layout{
+    width: 60%;
+    margin: 0 auto;
+}
