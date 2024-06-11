@@ -3,10 +3,72 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 30px;
 }
 
 /*********************REGOLE MAIN***************/
+
+/*********SEZIONE INPUT*******/
 .my_layout{
+    border-radius: 30px;
+    background-color: rgb(51, 125, 244);
     width: 60%;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#lista{
+    font-size: 40px;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(251, 201, 100);
+
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(251, 201, 100);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: chartreuse;
+
+}
+
+/***************SEZIONE OUTPUT************/
+.lista_out{
+   text-transform: uppercase;
+   /* display: none; */
+}
+
+ul{
     margin: 0 auto;
+    width: 50%;
+    padding: 30px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+li{
+    border-bottom: 1px solid rgb(163, 156, 156);
 }
